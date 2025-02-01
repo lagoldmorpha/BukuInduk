@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_item_data_diri"
+        android:title="Data Diri" />
+    <item
+        android:id="@+id/menu_item_download_pdf"
+        android:title="Dowload PDF" />
+    <item
+        android:id="@+id/menu_item_hapus"
+        android:title="Hapus" />
+</menu>

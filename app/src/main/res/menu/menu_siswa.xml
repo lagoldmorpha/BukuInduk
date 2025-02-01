@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_data_diri"
+        android:title="Data Diri" />
+    <item
+        android:id="@+id/menu_tempat_tinggal"
+        android:title="Tempat Tinggal" />
+    <item
+        android:id="@+id/menu_kesehatan"
+        android:title="Kesehatan" />
+    <item
+        android:id="@+id/menu_pendidikan"
+        android:title="Pendidikan" />
+    <item
+        android:id="@+id/menu_ayah_kandung"
+        android:title="Ayah Kandung" />
+    <item
+        android:id="@+id/menu_ibu_kandung"
+        android:title="Ibu Kandung" />
+    <item
+        android:id="@+id/menu_tentang_wali"
+        android:title="Tentang wali" />
+    <item
+        android:id="@+id/menu_hobi"
+        android:title="Hobi" />
+    <item
+        android:id="@+id/menu_perkembangan"
+        android:title="Perkembangan" />
+    <item
+        android:id="@+id/menu_setelah_pendidikan"
+        android:title="Setelah Pendidikan" />
+    <item
+        android:id="@+id/menu_logout"
+        android:title="Keluar" />
+</menu>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_data_diri.PerkembanganActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:layout_alignParentTop="true"
+        app:title="Perkembangan" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Menerima Bea Siswa Tahun Kelas Dari"
+                android:textSize="18dp"/>
+            <EditText
+                android:id="@+id/et_siswa_tahun_kelas_dari"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/baground_input"
+                android:hint="Menerima bea siswa tahun kelas dari"
+                android:padding="12dp"
+                android:textColorHint="@color/gray"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Tanggal Meninggalkan Sekolah"
+                android:textSize="18dp"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/et_tanggal_lahir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/baground_input"
+                android:text="Tanggal meninggalkan sekolah"
+                android:textAllCaps="false"
+                android:textColor="@color/gray"
+                android:textAlignment="textStart"
+                android:padding="12dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Alasan Meninggalkan Sekolah"
+                android:textSize="18dp"/>
+            <EditText
+                android:layout_marginTop="10dp"
+                android:id="@+id/et_alasan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/baground_input"
+                android:hint="Alasan meninggalkan sekolah"
+                android:padding="12dp"
+                android:textColorHint="@color/gray"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Tamatan Tahun"
+                android:textSize="18dp"/>
+            <EditText
+                android:layout_marginTop="10dp"
+                android:id="@+id/et_tamahan_tahun"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/baground_input"
+                android:hint="Tamatan tahun"
+                android:padding="12dp"
+                android:textColorHint="@color/gray"
+                android:inputType="number"
+                android:maxLength="4"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Nomor Tanggal Ijazah"
+                android:textSize="18dp"/>
+            <EditText
+                android:layout_marginTop="10dp"
+                android:id="@+id/et_no_tanggal_ijazah"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/baground_input"
+                android:hint="Nomor tanggal ijazah"
+                android:padding="12dp"
+                android:textColorHint="@color/gray"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Nomor Tanggal SKHUN"
+                android:textSize="18dp"/>
+            <EditText
+                android:layout_marginTop="10dp"
+                android:id="@+id/et_tanggal_skhun"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/baground_input"
+                android:hint="Nomor tanggal skhun"
+                android:padding="12dp"
+                android:textColorHint="@color/gray"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_perkembangan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/baground_button_primary"
+                android:text="Simpan"
+                android:textColor="@color/white"
+                android:textAllCaps="false" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

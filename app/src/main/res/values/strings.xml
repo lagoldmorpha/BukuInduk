@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Buku Induk</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="form_options">
+        <item>Form Ibu</item>
+        <item>Form Ayah</item>
+    </string-array>
+</resources>

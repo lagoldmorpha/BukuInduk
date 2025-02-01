@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.BukuInduk" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">@color/primary</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+<!--        <item name="android:fontFamily"></item>-->
+<!--        <item name="tabIconTint">@dra</item>-->
+    </style>
+
+    <style name="Theme.BukuInduk" parent="Base.Theme.BukuInduk" >
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+    </style>
+</resources>

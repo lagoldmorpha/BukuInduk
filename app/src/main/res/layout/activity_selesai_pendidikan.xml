@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_data_diri.SelesaiPendidikanActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:layout_alignParentTop="true"
+        app:title="Selesai Pendidikan" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Melanjutkan Ke"
+                android:textSize="18dp"/>
+            <EditText
+                android:id="@+id/et_melanjutkan_ke"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/baground_input"
+                android:hint="Melanjutkan Ke"
+                android:padding="12dp"
+                android:textColorHint="@color/gray" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Nama Perusahaan"
+                android:textSize="18dp"/>
+            <EditText
+                android:id="@+id/et_bekerja_nama_perusahaan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/baground_input"
+                android:hint="Nama Perusahaan"
+                android:padding="12dp"
+                android:textColorHint="@color/gray" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Tanggal Mulai Bekerja"
+                android:textSize="18dp"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/et_tanggal_lahir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/baground_input"
+                android:text="Pilih Tanggal Lahir"
+                android:textAllCaps="false"
+                android:textColor="@color/gray"
+                android:textAlignment="textStart"
+                android:padding="12dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Penghasilan"
+                android:textSize="18dp"/>
+            <EditText
+                android:id="@+id/et_bekerja_penghasilan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/baground_input"
+                android:hint="Penghasilan"
+                android:padding="12dp"
+                android:textColorHint="@color/gray"
+                android:inputType="numberDecimal" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_simpan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/baground_button_primary"
+                android:text="Simpan"
+                android:textAllCaps="false"
+                android:textColor="@color/white" />
+        </LinearLayout>
+</RelativeLayout>

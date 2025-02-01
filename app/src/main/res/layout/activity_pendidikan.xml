@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_data_diri.PendidikanActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:layout_alignParentTop="true"
+        app:title="Pendidikan" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sebelumnya Tamatan Dari"
+                android:textSize="18dp"/>
+            <EditText
+                android:id="@+id/et_sebelumnya_tamatan_dari"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/baground_input"
+                android:hint="Sebelumnya Tamatan Dari"
+                android:padding="12dp"
+                android:textColorHint="@color/gray" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Sebelumnya Nomor Ijazah"
+                android:textSize="18dp"/>
+            <EditText
+                android:id="@+id/et_sebelumnya_tanggal_dan_ijazah"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/baground_input"
+                android:hint="Sebelumnya Nomor Ijazah"
+                android:padding="12dp"
+                android:textColorHint="@color/gray"
+                android:inputType="date" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Sebelumnya Nomor SKHUN"
+                android:textSize="18dp"/>
+            <EditText
+                android:id="@+id/et_sebelumnya_tanggal_skhun_dan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/baground_input"
+                android:hint="Sebelumnya Nomor SKHUN"
+                android:padding="12dp"
+                android:textColorHint="@color/gray"
+                android:inputType="date" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Sebelumnya Lama Belajar"
+                android:textSize="18dp"/>
+            <EditText
+                android:id="@+id/et_sebelumnya_lama_belajar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/baground_input"
+                android:hint="Sebelumnya Lama Belajar"
+                android:padding="12dp"
+                android:textColorHint="@color/gray" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Pindahan Dari Sekolah"
+                android:textSize="18dp"/>
+            <EditText
+                android:id="@+id/et_pindahan_dari_sekolah"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/baground_input"
+                android:hint="Pindahan Dari Sekolah"
+                android:padding="12dp"
+                android:textColorHint="@color/gray" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Pindahan Alasan"
+                android:textSize="18dp"/>
+            <EditText
+                android:id="@+id/et_pindahan_alasan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/baground_input"
+                android:hint="Pindahan Alasan"
+                android:padding="12dp"
+                android:textColorHint="@color/gray" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Diterima di Kelas"
+                android:textSize="18dp"/>
+            <Spinner
+                android:id="@+id/sp_diterima_di_kelas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/baground_input"
+                android:padding="12dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Diterima di Bidang Keahlian"
+                android:textSize="18dp"/>
+            <Spinner
+                android:id="@+id/et_diterima_di_bidang_keahlian"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/baground_input"
+                android:padding="12dp"
+                android:textColorHint="@color/gray" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Diterima di Program Keahlian"
+                android:textSize="18dp"/>
+            <Spinner
+                android:id="@+id/et_diterima_di_program_keahlian"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/baground_input"
+                android:hint="Diterima di Program Keahlian"
+                android:padding="12dp"
+                android:textColorHint="@color/gray" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Diterima di Paket Keahlian"
+                android:textSize="18dp"/>
+            <Spinner
+                android:id="@+id/et_diterima_di_paket_keahlian"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/baground_input"
+                android:hint="Diterima di Paket Keahlian"
+                android:padding="12dp"
+                android:textColorHint="@color/gray" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Pilih Tanggal Diterima"
+                android:textSize="18dp"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/et_diterima_di_tanggal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/baground_input"
+                android:text="Pilih Tanggal Diterima"
+                android:textAllCaps="false"
+                android:textColor="@color/gray"
+                android:textAlignment="textStart"
+                android:padding="12dp"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_simpan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/baground_button_primary"
+                android:text="Simpan"
+                android:textAllCaps="false"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

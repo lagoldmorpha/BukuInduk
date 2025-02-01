@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BukuInduk"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31" >
+        <activity
+            android:name=".request_data_diri"
+            android:exported="false" />
+        <activity
+            android:name=".activity_data_diri.request"
+            android:exported="false" />
+        <activity
+            android:name=".LoginSiswaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity_data_diri.SelesaiPendidikanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity_data_diri.WaliActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity_data_diri.PendidikanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity_data_diri.IbuKandungActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity_data_diri.AyahKandungActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity_data_diri.KesehatanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity_data_diri.TempatTinggalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity_data_diri.HobiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity_data_diri.PerkembanganActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.EditSiswaAdminActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity_data_diri.DataDiriActivity"
+            android:exported="false" />
+        <activity
+            android:name=".siswa.DashboardSiswaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginAdminActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainHomePageActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
