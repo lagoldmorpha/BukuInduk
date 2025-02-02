@@ -125,6 +125,6 @@ interface ServicesRetrofit {
 fun RunRetrofit(): ServicesRetrofit {
     return Retrofit.Builder()
         .addConverterFactory(GsonConverterFactory.create())
-        .baseUrl("https://grown-prepared-boxer.ngrok-free.app")
+        .baseUrl("https://1e48-2a09-bac1-3480-50-00-3c1-52.ngrok-free.app")
         .build().create(ServicesRetrofit::class.java)
 }

@@ -34,29 +34,47 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:text="Masukan NISN dan Tanggal lahir untuk masuk"
+            android:text="Masukan NISN dan Tanggal Lahir untuk masuk"
             android:textAlignment="center" />
 
+        <!-- Input NISN -->
+        <EditText
+            android:id="@+id/et_nisn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/baground_input"
+            android:hint="NISN"
+            android:padding="12dp"
+            android:textAlignment="center"
+            android:textColorHint="@color/gray"
+            android:inputType="number" />
+
+        <!-- Input Tanggal Lahir -->
+        <EditText
+            android:id="@+id/et_tanggal_lahir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/baground_input"
+            android:hint="Tanggal Lahir (DD/MM/YYYY)"
+            android:padding="12dp"
+            android:textAlignment="center"
+            android:textColorHint="@color/gray"
+            android:inputType="date" />
+
+        <!-- Tombol Masuk -->
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/btn_isi_data_diri"
+            android:id="@+id/btn_masuk"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
             android:background="@drawable/baground_button_primary"
-            android:text="Ajukan Perubahan Data Diri"
+            android:text="Masuk"
             android:textAllCaps="false"
             android:textColor="@color/white" />
 
-        <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/btn_cek_data_diri"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
-            android:background="@drawable/baground_button_primary"
-            android:text="Cek Data Diri"
-            android:textAllCaps="false"
-            android:textColor="@color/white" />
-
+        <!-- Tombol Kembali -->
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn_kembali"
             android:layout_width="match_parent"
