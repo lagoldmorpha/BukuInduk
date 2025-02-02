@@ -32,14 +32,39 @@ class request : AppCompatActivity() {
             override fun onItemSelected(parent: AdapterView<*>, view: View, position: Int, id: Long) {
                 when (position) {
                     0 -> {
-                        // Menampilkan Form Ibu
-                        formContainer.removeAllViews()
-                        layoutInflater.inflate(R.layout.activity_hobi, formContainer, true)
+
                     }
                     1 -> {
-                        // Menampilkan Form Ayah
                         formContainer.removeAllViews()
-                        layoutInflater.inflate(R.layout.activity_ibu_kandung, formContainer, true)
+                        layoutInflater.inflate(R.layout.activity_request_data_diri, formContainer, true)
+                    }
+                    2 -> {
+                        formContainer.removeAllViews()
+                        layoutInflater.inflate(R.layout.activity_request_alamatsiswa, formContainer, true)
+                    }
+                    3 -> {
+                        formContainer.removeAllViews()
+                        layoutInflater.inflate(R.layout.activity_request_kesehatan, formContainer, true)
+                    }
+                    4 -> {
+                        formContainer.removeAllViews()
+                        layoutInflater.inflate(R.layout.activity_request_pendidikan, formContainer, true)
+                    }
+                    5 -> {
+                        formContainer.removeAllViews()
+                        layoutInflater.inflate(R.layout.activity_request_keterangan_ayah, formContainer, true)
+                    }
+                    6 -> {
+                        formContainer.removeAllViews()
+                        layoutInflater.inflate(R.layout.activity_request_ibu, formContainer, true)
+                    }
+                    7 -> {
+                        formContainer.removeAllViews()
+                        layoutInflater.inflate(R.layout.activity_request_perkembangan, formContainer, true)
+                    }
+                    8 -> {
+                        formContainer.removeAllViews()
+                        layoutInflater.inflate(R.layout.activity_request_lulus, formContainer, true)
                     }
                 }
             }

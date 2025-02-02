@@ -20,7 +20,7 @@ import androidx.viewpager2.adapter.FragmentStateAdapter
 import com.example.bukuinduk.admin.AngkatanAdminFragment
 import com.example.bukuinduk.admin.DashboradAdminFragment
 import com.example.bukuinduk.admin.JurusanAdminFragment
-import com.example.bukuinduk.admin.SiswaAdminFragment
+
 import com.example.bukuinduk.databinding.ActivityMainBinding
 import com.example.bukuinduk.databinding.LayoutMenuHeaderBinding
 import com.example.bukuinduk.models.AdminMe
@@ -44,7 +44,7 @@ class MainActivity : AppCompatActivity() {
 
         val listFragment = listOf(
             DashboradAdminFragment.newInstance("Bearir $token"),
-            SiswaAdminFragment.newInstance("Bearrir $token"),
+
             JurusanAdminFragment.newInstance("Bearrir $token"),
             AngkatanAdminFragment.newInstance("Bearrir $token"),
         )

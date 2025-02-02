@@ -3,7 +3,14 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string-array name="form_options">
-        <item>Form Ibu</item>
-        <item>Form Ayah</item>
+        <item>Pilih form</item>
+        <item>Biodata</item>
+        <item>Alamat</item>
+        <item>Kesehatan</item>
+        <item>Pendidikan</item>
+        <item>Keterangan Ayah</item>
+        <item>Keterangan Ibu</item>
+        <item>Perkembangan</item>
+        <item>Setelah Lulus</item>
     </string-array>
 </resources>
